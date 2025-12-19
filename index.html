@@ -1,122 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your GitHub Page</title>
-    <!-- Link to your CSS file for styling (optional) -->
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Basic styles for layout */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            padding: 1rem;
-            background-color: #444;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.1rem;
-        }
-
-        .hero {
-            height: 100vh;
-            background: url('your-image.jpg') no-repeat center center;
-            background-size: cover;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: white;
-            padding: 2rem;
-        }
-
-        .hero h2 {
-            font-size: 3rem;
-        }
-
-        .content {
-            padding: 3rem;
-            text-align: center;
-        }
-
-        .footer {
-            background-color: #333;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-    </style>
+    <title>Your Name, MD/PhD</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <div class="container">
+        <!-- Header -->
+        <h1>Your Name, MD/PhD</h1>
+        <p>Institution / Department</p>
 
-    <header>
-        <h1>Hello</h1>
-    </header>
+        <!-- Research Interests -->
+        <h2>Research Interests</h2>
+        <p>
+            My research focuses on [concise description of your focus, e.g., immune signaling pathways in inflammatory skin disease]. 
+            I have presented this work at national conferences and am preparing manuscripts for publication.
+        </p>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <!-- Publications / Abstracts -->
+        <h2>Publications & Abstracts</h2>
+        <ul>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/xxxxxx/">Author et al., Journal Name, Year</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/yyyyyy/">Author et al., Journal Name, Year</a></li>
+            <li>Poster: <a href="link-to-pdf-or-abstract">Title, Conference, Year</a></li>
+        </ul>
 
-    <section class="hero">
-        <div>
-            <h2>Welcome to My Portfolio</h2>
-            <p>Isaree Pitaktong</p>
-        </div>
-    </section>
+        <!-- CV -->
+        <h2>CV</h2>
+        <p><a href="cv.pdf" target="_blank">Download PDF</a></p>
 
-    <section id="about" class="content">
-        <h2>About Me</h2>
-        <p>Hello, my name is Isaree Pitaktong and I am MD PhD student studying Biomedical Engineering at Georgia Tech.</p>
-    </section>
-
-    <section id="projects" class="content">
-        <h2>My Projects</h2>
-        <p>Here are some of my cool projects:</p>
-        <!-- Add links to your projects or images of them -->
-        <!--<ul>
-            <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
-            <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
-            <li><a href="https://github.com/yourusername/project3">Project 3</a></li>
-        </ul>-->
-    </section>
-
-    <section id="contact" class="content">
+        <!-- Contact -->
         <h2>Contact</h2>
-        <!--<p>You can reach me through email: isaree.pitaktong@emory.edu</p>-->
-    </section>
-
-    <footer class="footer">
-        <p>&copy; 2025 Isaree Pitaktong</p>
-    </footer>
-
+        <p>Email: <a href="mailto:you@institution.edu">you@institution.edu</a></p>
+        <p>ORCID: <a href="https://orcid.org/0000-0000-0000-0000" target="_blank">0000-0000-0000-0000</a></p>
+        <p>Google Scholar: <a href="https://scholar.google.com/citations?user=XXXXXXX" target="_blank">link</a></p>
+    </div>
 </body>
-
 </html>
+3️⃣ style.css (ultra-minimal)
+css
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+a {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
